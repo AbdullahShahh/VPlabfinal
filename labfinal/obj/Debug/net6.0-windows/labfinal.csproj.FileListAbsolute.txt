@@ -1,0 +1,7 @@
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\labfinal.csproj.AssemblyReference.cache
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\labfinal_MarkupCompile.cache
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\Student.baml
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\StudentCourses.baml
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\Student.g.cs
+C:\Users\213031\source\repos\labfinal\labfinal\obj\Debug\net6.0-windows\StudentCourses.g.cs

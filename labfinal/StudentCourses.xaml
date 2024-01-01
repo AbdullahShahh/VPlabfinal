@@ -1,0 +1,29 @@
+﻿
+<Window x:Class="labfinal.StudentCourses"
+       
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Courses Form" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <DataGrid Name="studentsDataGrid" Grid.Row="0" AutoGenerateColumns="True" Margin="10"/>
+     <Label Content="Search Students:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" />
+        <TextBox Name="searchStudentsTextBox" Grid.Row="1" Width="150" Margin="10,5,0,10"
+                 TextChanged="SearchStudentsTextBox_TextChanged"/>
+
+       
+        <DataGrid Name="coursesDataGrid" Grid.Row="2" AutoGenerateColumns="True" Margin="10"/>
+
+      
+        <Label Content="Search Courses:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Margin="10,10,0,0"/>
+        <TextBox Name="searchCoursesTextBox" Grid.Row="3" Width="150" Margin="10,5,0,10"
+                 TextChanged="SearchCoursesTextBox_TextChanged"/>
+    </Grid>
+</Window>
